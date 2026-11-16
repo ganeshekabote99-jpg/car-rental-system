@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-vehicle-rental-system",
+  "version": "1.0.0",
+  "description": "Unified Full-Stack Vehicle Rental System with React, Node, Express, MongoDB",
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "build-and-start": "npm run build && npm start"
+  }
+}
